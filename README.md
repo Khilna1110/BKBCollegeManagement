@@ -15,11 +15,24 @@ To run this project in local, create the database as per below schema in SQL Ser
 
 **Provide the reference for this database in appsettings.json file in C# as shown below**:
 
-"ConnectionStrings": {
+"**ConnectionStrings**": {
 
     "DefaultConnection": "Server=(localdb)\\mssqllocaldb;Database={yourDBname};Trusted_Connection=True;MultipleActiveResultSets=true"
     
   }
   
 # Azure Blob Storage
-We used **Azure Blob Storage** 
+We used **Azure Blob Storage** for storage of Timetables and Study Materials for courses. We need to create Azure Container in Storage account using Azure Cloud account and update the below details in appsettings.json as well as API calls for download/upload timetables and study materials.
+
+ "**BlobConnectionString**":
+ "connection string for your Azure container",
+ 
+ "**BlobContainerName**":
+ "your azure cloud container",
+ 
+ "**AccountName**":
+ "your azure account name",
+ 
+ "**AccessKey**": 
+ "your azure access key"
+

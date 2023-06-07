@@ -4,8 +4,24 @@ This project was generated with **_Microsoft Visual Studio version 17.4._**
 
 This project provides the backend for **BKB-EduSimplified** project.
 
-**Frontend** for this project has been developed by **Sakshi Agrawal** and can be found at below repository:
+**Frontend** for this project has been developed by **Sakshi Agrawal** using Angular and can be found at below repository:
 https://github.com/sakshiAgrawal99/eduSimplified
+
+# About this project: 
+The name of this project is **BKB-EduSimplified** and as the name suggests this application aims 
+to simplify the education processes not only for students but also for teachers.
+
+It provides a web platform for teachers to interact seamlessly with students and provide them with adequate study 
+materials and syllabus based on courses easily. Also, the application provides teachers the ability 
+to make important announcements directly through the web app. Teachers can upload/delete 
+timetable for the various courses through the application. The web app also enables teachers to see 
+all the students for a particular course and send them messages directly one-to-one.
+
+From the student’s perspective, this web app can be very helpful as a one stop for all their academic 
+requirements. Students can get all the study materials for their courses based on subject at one 
+place, so they don’t have to search at the end moments for study, saving time and efforts. Also, 
+they can directly view all the announcements made by Teachers/admin on the portal. Students can 
+see the messages received from teachers and take action on them immediately.
 
 # Database
 We used **SQL Server Studio** as the database for this project and **Azure Cloud Blob Storage** for Object storage.
